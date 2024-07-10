@@ -5,4 +5,6 @@
 - before starting exploit edit the .sh file and remove the "/* */" with ctrl+f you can find it , and replace the "(the-query)" with the parameter for example it's id in the above-mentioned example and - replace the URL variable with the url and the page with out the query , the id in our case
 
 
-- Usage : bash blind.sqli.injection.exploiter.sh (the sql command) note : your reference will be the ( pentesetmonkey.net ) sql injections cheat-sheets
+- Usage : bash blind.sqli.injection.exploiter v3.sh (the sql command) note : your reference will be the ( pentesetmonkey.net ) sql injections cheat-sheets
+- if it's not working make it executable with ("chmod +x blind.sqli.injection.exploiter v3.sh")
+- why because the compiler reads the bash command as (execute the v3.sh file and the blind.sqli.injection.exploiter)
